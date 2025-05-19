@@ -1,0 +1,149 @@
+#about{
+    padding: 3rem 0 6rem;
+    @media (max-width:992px) {
+        padding: 3rem 0;
+    }
+    .title_headig{
+        text-align: center;
+        max-width: 50rem;
+        margin: auto;
+        & h3{
+             font-size: 2.5rem;
+             line-height: 3.214rem;
+             font-weight: 700;
+             color:var(--white-color) ;
+             margin-bottom:0;
+             @media (max-width:767px) {
+                font-size: 1.8rem;
+                line-height: 2.8rem;
+             }
+        }
+    }
+     p{
+            font-size:1.0rem ;
+            line-height: 2rem;
+            color: var(--font-color);
+        }
+        h5{
+              font-size:1.214rem ;
+            line-height: 2rem;
+            font-weight: 800;
+            color:var(--white-color) ;
+        }   
+        .about_box_wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center ;
+            margin-top: 4rem;
+            @media (max-width:992px) {
+                justify-content: center;
+            }
+            @media (max-width:992px) {
+                flex-direction: column;
+            }
+            .about_box{
+                width: calc(100% / 3-1rem);
+                padding: 1rem;
+                box-sizing: border-box;
+                text-align: center;
+                @media (max-width:992px) {
+                    width: 50%;
+                }
+                @media (max-width:767px) {
+                    width: 100%;
+                }
+                .about_icon{
+                         font-size: 2.2857rem;
+                         width: 5.7143rem;
+                         height: 5.7143rem;
+                         margin: auto;
+                         line-height: 5.7143rem;
+                         border-radius: 50%;
+                         color: var(--primary-color);
+                         background-color: var(--primary-bg);
+                         text-align: center;
+                }
+                     
+                         & .blue_icon{
+                            color: var(--blue-color);
+                            background: var(--blue-color-bg);
+                         }
+                          & .green_icon{
+                            color: var(--green-color);
+                            background: var(--green-color-bg);
+                  }
+            }
+            & h5{
+                font-weight: 700;
+                font-size: 1.7143rem;
+                line-height: 2.4286rem;
+            }
+            & p{
+                font-size: 1.2143rem;
+                line-height: 2rem;
+                color: var(--font-color);
+            }
+        }
+    .about_box_detail{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10rem;
+      @media (max-width:1024px) {
+          flex-direction: column;
+      }
+    }
+    .about_col{
+        width: calc(100%/2 -1rem);
+        padding: 1rem;
+        box-sizing: border-box;
+        position: relative;
+        @media (max-width:1024px) {
+            width: 100%;
+        }
+      }
+      .icon1{
+        background-color: var(--blue-color-bg);
+        color: var(--blue-color);
+        height: 60px;
+        border-radius:50% ;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+        .icon2{
+        background-color: var(--green-color-bg);
+        color: var(--green-color);
+        height: 60px;
+        border-radius:50% ;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .img_info_detail{
+        text-align: center;
+        position: relative;
+        left: 320px;
+        height: 150px;
+        width: 320px;
+        background-color: var(--bg-dark-color);
+        color: var(--white-colo);
+        border-radius: 10%;
+        bottom: 50px;
+        border: solid 1px black;
+        padding: 10px;
+        
+        & h6{
+            font: 800;
+            font-size: 15px;
+        }
+        & p{
+            font-size: 9px;
+        }
+        & a{
+            color: aliceblue;
+        }
+      }
+}

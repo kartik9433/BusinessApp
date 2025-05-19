@@ -1,0 +1,35 @@
+#blog{
+    padding: 6rem 0 4rem;
+    .blog_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (max-width:992px) {
+            flex-direction:column-reverse ;
+        }
+            .blog_col{
+                width: calc(100% / 2 - 15px);
+                  height: auto;
+                  z-index: 1;
+                  position: relative;
+                  @media (max-width:991) {
+                    width: fit-content;
+                    padding: 2rem;
+                  }
+                  @media (max-width:767) {
+                    padding: 1.5rem;
+                  }
+            }
+          & h3{
+              width: 80%;
+              font-size: 3rem;
+              line-height: 3.174rem;
+              font-weight: 600;
+              text-transform: uppercase;
+          }
+          & p {
+            color: azure;
+          }
+    }
+
+}

@@ -1,0 +1,19 @@
+#footer{
+    height: 20vh;
+    width: 100%;
+    background-color: var(--bg-dark-color);
+    & p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(  --font-color);
+    }
+    & h5{
+        color:var( --font-color) ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        padding-top: 20px;
+    }
+}
